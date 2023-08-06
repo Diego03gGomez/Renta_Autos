@@ -1,0 +1,1032 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.contenedor1{
+   /* background-color: red;*/
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+/*CONTENEDOR2*/
+
+
+#baner1{
+    background: linear-gradient(to right,#22465499, #263c43, #37657875), url(/imagenes/primeraimagen.jpg);
+
+
+
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+
+.contenedor2{
+   /* background-color: red;*/
+    margin: auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.modelo_auto{
+  /*  background-color: blue;*/
+    width: 50%;
+}
+
+
+.modelo_auto h1{
+    font-size: 50px;
+}
+
+select{
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+input{
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+
+.clase_pick{
+ /* background-color: yellow;*/
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.clase_pick input{
+    width: 50%;
+   padding: 15px;
+   margin: 10px 0;
+}
+
+
+.imagen_auto{
+    width: 70%;
+   /* background-color: green;*/
+    text-align: center;
+}
+
+
+.imagen_auto img{
+    text-align: center;
+    width: 100%;
+}
+
+
+.modelo_auto button{
+cursor: pointer;
+
+
+    border-color: orange;
+    border-style: solid;
+    text-align: center;
+    padding: 15px ;
+    width: 40%;
+    background-color: orange;
+    color: white;
+}
+
+
+
+.modelo_auto h1{
+    color: white;
+}
+
+.modelo_auto .precio{
+    color: orange;
+}
+
+
+
+
+
+
+
+.contenedor3{
+   /* background-color: brown;*/
+    margin: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 3%;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: column;
+    text-align: center;
+}
+
+.tarjetas h2{
+    flex-grow: 1;
+}
+
+
+.icono_tarjeta{
+   color: blue;
+    font-size: 60px;
+} 
+
+
+.tarjetas h2{
+    color: grey;
+}
+
+
+.tarjetas a button{
+cursor: pointer;
+
+
+    color: blue;
+    text-align: center;
+    background-color:rgb(90 90 90 / 8%);
+    border-color: rgb(90 90 90 / 0%);;
+    border-style: solid;
+    width: 70%;
+    padding: 15px;
+}
+
+
+
+.contenedor4{
+    padding-top: 5%;
+/*  background-color: brown;*/
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.contenedor_img img{
+    width: 100%;
+}
+
+.contenedor_img{
+   /* background-color: blue;*/
+    width: 100%;
+}
+
+
+
+.tarjeta_precios{
+    background-color: white;
+   /* display: flex;
+    flex-direction: column;*/
+   /* background-color: green;*/
+    margin: 0 40px;
+}
+
+
+.icono_tarjeta2{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+
+
+.tarjeta_precios h2{
+    font-size: 17px;
+}
+
+
+
+.tarjeta_precios a{
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.contenedor_boton a button{
+    
+    cursor: pointer;
+  
+    background-color: orange;
+    border-color: orange;
+    border-style: solid;
+    color: white;
+    text-align: center;
+    width: 45%;
+    padding: 15px;
+    margin: 20px 0;
+    
+}
+
+
+.contenedor_boton {
+    text-align: center;
+}
+
+
+.contenedor5{
+    padding-top: 4%;
+    
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+
+.contenedor5 a button{
+
+cursor: pointer;
+font-weight: bold;
+    padding: 15px;
+    text-align: center;
+ color: blue;
+ border-color: black;
+}
+
+
+
+
+.contenedor5 a button:hover{
+transition: all 1.00s;
+
+
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.contenedor6{
+    align-items: center;
+   /* background-color: brown;*/
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.condiciones{
+  /*  background-color: blue;*/
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tarjetas_condiciones{
+   /* background-color: orange;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarj{
+    text-align: center;
+  /*  background-color: green;*/
+    width: 50%;
+}
+
+.condiciones p{
+    font-size: 17px;
+}
+
+.condiciones h1{
+    font-size: 40px;
+}
+
+.tarj p{
+    font-size: 17px;
+}
+/*
+.contenedor_icono{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.contenedor_icono h2{
+    text-align: center;
+}*/
+
+.icono{
+    font-size: 25px;
+   /* margin:  0 20px;*/
+    color: blue;
+}
+
+
+
+
+
+
+.ofertas{
+  /*  background-color: yellow;*/
+    width: 40%;
+    text-align: center;
+}
+
+.ofertas .tarj2{
+  /*  background-color: deeppink;*/
+    margin: 20px auto;
+    width: 70%;
+}
+
+.ofertas h1{
+    font-size: 45px;
+}
+
+.tarj2 .div_icono{
+  /*  background-color: blue;*/
+    width: 20%;
+    
+}
+
+.icono2{
+    color: orange;
+    font-size: 30px;
+}
+
+.tarj2{
+   
+    align-items: center;
+    display: flex;
+}
+
+.num_oferta{
+    text-align: center;
+}
+
+
+
+#baner4{
+    background: linear-gradient(to right,#000046d1, #1c70e094), url(/imagenes/imgultima.jpg);
+    background-size: cover;
+    background-position: center;
+    height:65vh;
+    display: flex;
+    align-items: center;
+   height: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+
+.icono_cont7  {
+    margin: 0 20px;
+    font-size: 25px;
+    color: orange;
+}
+
+
+.contenedor7{
+  /*  background-color: brown;*/
+    margin: auto;
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contenedor7 h1{
+    text-align: center;
+    font-size: 55px;
+    width: 67%;
+    margin: auto;
+}
+
+.tarjetas_contenedor7{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+   /* background-color: green;*/
+}
+
+.tarj3{
+    width: 33%;
+   /* background-color: blue;*/
+    display: flex;
+    align-items: center;
+ margin: auto;
+
+}
+
+
+.tarj3 h2{
+    font-size: 20px;
+}
+
+
+.contenedor8 h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.contenedor_form{
+   /* background-color: brown;*/
+    margin: auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formulario{
+ /*   background-color: blue;*/
+width: 50%;
+
+/*
+display: flex;
+flex-wrap: wrap;*/
+
+}
+
+.formulario input{
+    width: 49%;
+    /*margin: ;*/
+    height: 50px;
+}
+
+.formulario textarea{
+    width: 99%;
+    height: 150px;
+   resize: none;
+ 
+}
+
+
+.contenedor_form button{
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    border-style: solid;
+    width: 35%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.direcciones{
+  /*  background-color: green;*/
+    width: 50%;
+ 
+}
+
+
+.icono_direcciones {
+    margin: 0 5px;
+    font-size: 38px;
+    text-align: center;
+    width: 10%;
+    color: white;
+   
+    border-radius: 60px;
+}
+
+.direcciones h2{
+    font-size: 14px;
+    color: white;
+    margin: 20px 50px;
+}
+
+
+
+#baner_final{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background: linear-gradient(to right, #055ce7, #0048d4db, #4752f6eb);
+}
+
+
+.contenedor8 h1{
+    color: white;
+}
+
+
+
+
+
+.icono_redes{
+    font-size: 40px;
+   color: grey;
+    margin:0 20px ;
+}
+
+
+
+
+
+#baner2{
+    background-color: #e0e0e054;
+}
+
+#baner3{
+    background-color: #e0e0e054;
+
+height: 100%;
+padding-bottom: 100px;
+padding-top: 90px;
+
+
+}
+
+
+
+/*
+.num_oferta{
+    background-color: white;
+    width: 100%;
+}*/
+.tarj2{
+    background-color: white;
+}
+
+
+.contenedor_boton a button{
+    width: 67%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.icono_menu{
+    display: none;
+}
+
+
+
+.icono_redes{
+    font-size: 35px;
+}
+
+
+footer{
+    height: 100%;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.contenedor_footer{
+ /*  background-color: green;*/
+    margin: auto;
+    width: 60%;
+   display: flex;
+align-items: center;
+}
+
+.redes{
+    width: 50%;
+ /*  background-color: gold;   */
+   display: flex;
+   justify-content: center;
+  
+}
+.contenedor_footer h3{
+   text-align: center;
+    color: grey;
+}
+
+.redes a{
+   margin: 0 10px;
+   font-size: 30px;
+   color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#boton_est{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px){
+    nav{
+        display: none;
+    }
+
+#baner1{
+    height: 100%;
+}
+
+
+
+
+    .contenedor2{
+        
+        margin: auto;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modelo_auto{
+       /* background-color: blue;*/
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+
+    .clase_pick{
+        width: 100%;
+    }
+
+select{
+    width: 100%;
+}
+    input{
+        width: 100%;
+    }
+
+
+
+    .imagen_auto{
+        width: 100%;
+    }
+
+
+
+
+.contenedor3{
+   grid-template-columns: 1fr;
+}
+
+.tarjetas{
+    margin: 20px auto;
+    width: 100%;
+    
+}
+
+
+.tarjetas a button{
+    width: 30%;
+}
+
+
+.contenedor4{
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+
+
+
+.tarjeta_precios{
+    margin: 20px auto;
+    background-color: white;
+}
+
+
+.condiciones{
+    width: 100%;
+}
+
+.contenedor6{
+    width: 90%;
+    flex-direction: column;
+}
+
+.ofertas{
+    width: 100%;
+}
+/*
+.tarj2{
+    width: 100%;
+}*/
+
+
+
+
+.ofertas .tarj2{
+ 
+    width: 90%;
+}
+
+.tarj2 .div_icono{
+  background-color: white;
+    width: 50%;
+  
+    
+}
+
+
+.num_oferta h2{
+    text-align: center;
+}
+
+.tarjetas_contenedor7{
+    flex-direction: column;
+}
+
+.tarj3{
+    width: 100%;
+}
+
+
+.contenedor7{
+    width: 90%;
+}
+
+
+.contenedor7 h1{
+    width: 100%;
+    font-size: 45px;
+}
+
+.tarj3{
+    margin: 10px auto;
+}
+
+
+
+
+
+.contenedor_form{
+    width: 90%;
+    flex-direction: column;
+}
+
+
+.formulario{
+    width: 100%;
+}
+
+
+
+.direcciones{
+    width: 100%;
+}
+
+
+
+.contenedor_footer{
+    flex-direction: column-reverse;
+}
+.redes{
+    width: 100%;
+    text-align: center;
+}
+
+
+.tarj p {
+    
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.tarj{
+  
+    margin: 30px 0;
+}
+
+
+
+.icono_menu{
+    display: initial;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+nav{
+    display: none;
+    position: absolute;
+  background-color: white;
+    width: 90%;
+    margin: auto;
+    top:70px;
+    
+    flex-direction: column;
+}
+
+
+nav a{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+}
+
+nav a:hover{
+transition: all 0.30s;
+
+
+    background-color: orange;
+    color: white;
+
+}
+
+
+
+
+
+#baner4{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.contenedor_footer{
+    flex-direction: column-reverse;
+    width: 80%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:414px){
+    .tarjetas a button{
+        width: 44%;
+    }
+}
