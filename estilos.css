@@ -784,6 +784,7 @@ align-items: center;
 @media (max-width:1000px){
     nav{
         display: none;
+        z-index: 995;
     }
 
 #baner1{
