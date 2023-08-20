@@ -126,6 +126,7 @@ align-items: center;
    /* background-color: brown;*/
     margin: auto;
     width: 60%;
+    text-align: center;
 }
 
 .contenedor3 h1{
